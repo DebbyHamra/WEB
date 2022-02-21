@@ -1,0 +1,220 @@
+body {
+    font-family: 'Secular One', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+p { 
+    font-size: 16px;
+}
+li {list-style: none; 
+    margin-right: 25px; 
+}
+
+
+.menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: black;
+    
+
+}
+ul {
+    display: flex;
+    
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+.titular {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+a {
+    font-size: 14px;
+    background-color: rgb(169, 240, 217);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+header {
+    background: url(FONDO\ 2.jpg); 
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor {  
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    
+}
+
+/*  ARRANCA SECCION SOBRE MI*/
+
+h3 {
+text-align: center;
+font-size: 55px;
+font-weight: normal;
+}
+
+.contenedor-sobremi {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.contenedor-parrafo-y-boton {
+    width: 42%;
+}
+
+.contenedor-parrafo-y-boton p {
+
+    font-size: 18px;   
+}
+
+.parrafo-final {
+margin-bottom: 30px;
+}
+
+.div-consultoria {
+    justify-content: center;
+}
+.contenedor-consultoría {
+    background: url(consultoria.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.contenedor-consultoría p {
+    font-size: 18px;
+    width: 42%;
+    text-align: center;
+ justify-content: center;
+ padding-left: 400px;
+ padding-top: 400px;
+}
+
+
+.boton-verde {
+ display: flex;
+ justify-content: center; 
+
+}
+
+.contenedor-servicios {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.servicio {
+    width: 23%;
+    font-size: 28px;
+    padding: 38px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.Verde {
+    background-color:rgb(169, 240, 217)
+}
+
+.Rosa {
+    background-color:plum
+}
+
+.servicio h4 {
+    font-size: 30px;
+}
+
+.servicio img {
+    float: right;
+}
+
+.servicio p {
+    font-size: 18px;
+    height: 100px;
+}
+
+
+#Blog {
+    background: rgb(240, 237, 237);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contenedor-publicaciones {
+display: flex; 
+justify-content: space-around;
+}
+
+.publicacion {
+    width: 40%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 50px;
+}
+
+.publicacion1 {
+    width: 91%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 40px;
+}
+
+#Blog img {
+    width: 100%; 
+}
+
+.contenedor-publicaciones p {
+    font-size: 18px;  
+}
+
+#Blog h4 {
+    margin: 0%;
+    padding: 20px
+}
+
+#Blog p {
+    color: #5a6169;
+    line-height: 25px;
+    font-size: 16px;
+    padding:10px 20px 20px 20px;
+    margin: 0%;
+}
+
+
+#Blog a {
+    display: flex;
+    justify-content: center;
+}
+
+
+#contactame {
+    background: linear-gradient(rgba(221, 160, 221),rgba(169, 240, 217));
+    padding: 50px 0 50px 0;
+}
+
+#whatsapp a {
+    background: none;
+    position:fixed;
+    top: 85%;
+    right: 15%;  
+}
+
